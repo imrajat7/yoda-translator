@@ -1,0 +1,45 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Minion Translator</title>
+        <script src="./js/script.js" defer></script>
+    </head>
+    <body>
+        <header class="header-container">
+            <h2>Yoda Translator</h2>
+        </header>
+        <section class="about-container">
+            <h3>About</h3>
+            <p>
+                Are you a fan of yoda? Did you know that the gibberish they say
+                is an actual language. Use the translator to convert your text
+                from English to Yoda's language.
+            </p>
+        </section>
+        <div class="body-wrapper">
+            <div class="content-wrapper">
+                <textarea
+                    class="input-text-area"
+                    id="input-text-area-id"
+                    placeholder="Put your message here which you want to convert to banana language"
+                ></textarea>
+                <button id="translate-button">Translate to yoda</button>
+                <textarea
+                    class="output-text-area"
+                    id="output-text-area-id"
+                    placeholder="Translation here"
+                    disabled="{true}"
+                ></textarea>
+            </div>
+        </div>
+    </body>
+</html>
